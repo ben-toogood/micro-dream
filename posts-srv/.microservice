@@ -1,0 +1,12 @@
+{ 
+    "name": "Posts Service",
+    "identifier": "dream.srv.v1.posts",
+    "description": "Stores and retrives posts from a database", 
+    "clients": ["go", "ruby"],
+    "metadata": {
+        "foo": "bar",
+    },
+    "tags": [
+        "core"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "identifier": "dream",
+    "defaultLanguage": "go",
+    "api": {
+        "enabled": true,
+        "hosts": [
+            "api.dream.com"
+        ],
+        "docs": true,
+    },
+}

@@ -1,0 +1,12 @@
+{ 
+    "name": "Comments Service",
+    "identifier": "dream.srv.v1.comments",
+    "description": "Stores and retrives comments from a database", 
+    "clients": ["go", "ruby"],
+    "metadata": {
+        "foo": "bar",
+    },
+    "tags": [
+        "core"
+    ]
+}

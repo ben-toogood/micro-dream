@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+service Comments {
+	rpc Create(CreateRequest) returns (CreateResponse) {}
+}
+
+message CreateRequest {
+    Comment comment = 1;
+}
+
+message CreateResponse {
+    Comment comment = 1;
+}
+
+message Comment {
+	string uuid = 1;
+	string user_uuid = 2;
+	string post_uuid = 3;
+	string text = 4;
+	int64 created_at = 5;
+}
